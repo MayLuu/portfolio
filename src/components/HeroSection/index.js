@@ -1,4 +1,5 @@
 import React from 'react'
+import styled from "styled-components";
 import HeroBgAnimation from '../HeroBgAnimation'
 import { HeroContainer, HeroBg, HeroLeftContainer, ContactButtonWrapper, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle,SocialMediaIcons,SocialMediaIcon, ResumeButton, IconButton } from './HeroStyle'
 import Typewriter from 'typewriter-effect';
@@ -7,7 +8,16 @@ import { Bio } from '../../data/constants';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
+
+
 const HeroSection = () => {
+
+    const typeWriterStrings = () => {
+        return Bio.roles.map(role => 
+            `<span style="font-size:32px">${role}</span>`
+        )
+
+    }
     return (
         <div id="about">
             <HeroContainer>
@@ -22,7 +32,7 @@ const HeroSection = () => {
                             <Span>
                                 <Typewriter
                                     options={{
-                                        strings: Bio.roles,
+                                        strings: typeWriterStrings(),
                                         autoStart: true,
                                         loop: true,
                                     }}

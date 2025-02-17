@@ -5,7 +5,8 @@ export const Bio = {
     "UI/UX Designer",
     "Programmer",
   ],
-  description:
+  overview: "",
+description:
     "A software developer with 2 years of experience in React and modern JavaScript frameworks, I specialize in creating dynamic, responsive user interfaces that deliver exceptional digital experiences.",
   github: "https://github.com/mayluu",
   resume:
@@ -29,7 +30,7 @@ export const skills = [
           "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
       },
       {
-        name: "Next Js",
+        name: "NextJS",
         image:
           "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
       },
@@ -138,7 +139,7 @@ export const experiences = [
   {
     id: 2,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUo_9_9aIv5fFKvbuVfGh2M9EjMivRgkpBoQ&s",
-    role: "Front-end Developer Inter",
+    role: "Front-end Developer Intern",
     company: "FPT - FAcademy",
     date: "Sep 2022 - Dec 2022",
     desc: [
@@ -178,11 +179,17 @@ export const education = [
 
 export const projects = [
   {
+
     id: 0,
-    title: "Dieu Thien Resrtaurant - Vegeterian landing page",
+    title: "Dieu Thien Restaurant - Vegeterian landing page",
+    category: ['Web App', 'UI/UX Design'],
     date: "Mar 2024",
+    overview: "A sleek and responsive vegetarian landing page built with Next.js and Ant Design.",
     description:
-      "A sleek and responsive vegetarian landing page built with Next.js and Ant Design, featuring dynamic navigation, elegant UI components, and fast-loading performance to enhance user engagement.",
+      [
+        "A sleek and responsive vegetarian landing page built with Next.js and Ant Design, featuring dynamic navigation, elegant UI components, and fast-loading performance to enhance user engagement.",
+
+      ],
     image:
       "https://firebasestorage.googleapis.com/v0/b/audioryauth.appspot.com/o/DieuThienBanner.jpg?alt=media&token=19f1cc8e-6958-4729-89ee-6438a973f4a2",
     tags: [
@@ -197,7 +204,9 @@ export const projects = [
   {
     id: 1,
     title: "Audiory - Smart story reading and composing system",
+    category: ['Web App', 'UI/UX Design'],
     date: "Jul 2023 - Dec 2023",
+    overview: "An intelligent platform designed to enhance storycomposing experiences for Vietnamese generation.",
     description:
       "Democratizing storytelling for a new generation of diverse Gen Z writers and their fans.",
     image:
@@ -216,7 +225,9 @@ export const projects = [
   // {
   //   id: 2,
   //   title: "Habit app tracking",
+  //   category:'web app',
   //   date: "Jun 2023 - Jul 2023",
+  //   overview: "",
   //   description:
   //     "Democratizing storytelling for a new generation of diverse Gen Z writers and their fans.",
   //   image:
@@ -236,25 +247,30 @@ export const projects = [
   {
     id: 3,
     title: "Mercedes-benz Haxaco - Car showcase website",
+    category: ["Web App"],
     date: "Dec 2023",
+    overview: "ReactJS-powered car showcase with MailJS for inquiries, sleek UI, dynamic filtering.",
     description:
       [
-        "A class web app in order to buy, sell or exchange old stuffs among students using ReactJS, Redux and .NET Core.",
-"Collaborated with back-end teammates to develop user-facing features, plan for meetings and ensure on-time project and build user interfaces."
+        "Built with modern React libraries for state management and optimal performance, delivering an engaging user experience",
+        "A ReactJS-based car showcase website for Mercedes-Benz Haxaco, featuring interactive UI, model filtering, and virtual showroom"
       ],
     image:
       "https://firebasestorage.googleapis.com/v0/b/audioryauth.appspot.com/o/file%20cover%20-%202.png?alt=media&token=c0f3d374-e762-4330-938a-e438ae1f0f45",
     tags: [
       "ReactJS",
+      "CSS",
       "MailJS"
     ],
     github: "https://github.com/MayLuu/car-showcase",
-    webapp: "http://mercedesvn.net",
+    webapp: "https://mercedesvn.vercel.app",
   },
   // {
   //   id: 4,
   //   title: "Horizon Tek",
+  //   category: ["Web App"],
   //   date: "May 2022 - Jul 2022",
+  //   overview: "",
   //   description:
   //     "Democratizing storytelling for a new generation of diverse Gen Z writers and their fans.",
   //   image:
@@ -262,14 +278,13 @@ export const projects = [
   //   tags: [
   //     "Angular",
   //     "ThreeJS",
-  //     "Angular material",
-  //     "Redux",
   //     ".NET"
   //   ],
   //   github: "https://github.com/mayluu",
   //   webapp: "https://trackify.duckdns.org",
   // },
-  
+
+
 ];
 
 export const TimeLineData = [

@@ -133,7 +133,7 @@ const EducationCard = ({ education }) => {
     return (
         <Card>
             <Top>
-                <Image src={education.img} />
+                <Image src={education.img} loading='lazy'/>
                 <Body>
                     <Name>{education.school}</Name>
                     <Degree>{education.degree}</Degree>

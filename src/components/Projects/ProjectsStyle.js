@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import _default from '../../themes/default';
 
 export const Container = styled.div`
@@ -66,26 +66,34 @@ export const ToggleButtonGroup = styled.div`
         font-size: 12px;
     }
 `
-
+export const PulseAnimation = keyframes`
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+`
 export const ToggleButton = styled.div`
     padding: 8px 18px;
-    border-radius: 6px;
+    border-radius: 11px;
     cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+
     ${({ active, theme }) =>
         active && `
-    background: ${theme.primary + 20};
+    color: ${theme.text_primary};
+    background-color: ${theme.primary};
     `
     }
     &:hover {
-        background: ${({ theme }) => theme.primary + 8};
+        animation: ${PulseAnimation} .7s normal;
+        background: ${({ theme }) => theme.text_primary + 8};
     }
+
     @media (max-width: 768px) {
         padding: 6px 8px;
         border-radius: 4px;
     }
 `
 export const Divider = styled.div`
-    width: 1.5px;
     background: ${({ theme }) => theme.primary};
 `
 
@@ -96,6 +104,7 @@ export const CardContainer = styled.div`
     align-items: center;
     gap: 28px;
     flex-wrap: wrap;
+    max-width: 1200px;
     // display: grid;
     // grid-template-columns: repeat(3, 1fr);
     // grid-gap: 32px;
