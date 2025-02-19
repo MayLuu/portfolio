@@ -33,6 +33,10 @@ export const skills = [
           "image": "https://www.vectorlogo.zone/logos/nextjs/nextjs-icon.svg"
         },
         {
+          "name": "Angular",
+          "image": "https://www.vectorlogo.zone/logos/angular/angular-icon.svg"
+        },
+        {
           "name": "Bootstrap",
           "image": "https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg"
         },
