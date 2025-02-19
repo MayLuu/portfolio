@@ -10,7 +10,7 @@ description:
     "A software developer with 2 years of experience in React and modern JavaScript frameworks, I specialize in creating dynamic, responsive user interfaces that deliver exceptional digital experiences.",
   github: "https://github.com/mayluu",
   resume:
-    "https://drive.google.com/uc?export=download&id=14NrCoG-KUOPWFsevpZs06vj4T-KvzTnm",
+    "https://drive.google.com/uc?export=download&id=1CpmDKt9sB50RX6YsY5d5ShH8dMnK1zXH",
   linkedin: "https://www.linkedin.com/in/my-luu",
   email: "#contact",
 };
