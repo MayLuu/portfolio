@@ -32,7 +32,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.div`
-font-size: 42px;
+font-size: 2.25rem;
 text-align: center;
 font-weight: 600;
 margin-top: 20px;
@@ -44,13 +44,13 @@ margin-top: 20px;
 `;
 
 export const Desc = styled.div`
-    font-size: 18px;
+    font-size: 1.25rem;
     text-align: center;
     max-width: 600px;
     color: ${({ theme }) => theme.text_secondary};
     @media (max-width: 768px) {
         margin-top: 12px;
-        font-size: 16px;
+        font-size: 1.15rem;
     }
 `;
 
@@ -58,12 +58,12 @@ export const ToggleButtonGroup = styled.div`
     display: flex;
     border: 1.5px solid ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.primary};
-    font-size: 16px;
+    font-size: 1.15rem;
     border-radius: 12px;
     font-weight: 500;
     margin: 22px 0px;
     @media (max-width: 768px) {
-        font-size: 12px;
+        font-size:  0.85rem;
     }
 `
 export const PulseAnimation = keyframes`

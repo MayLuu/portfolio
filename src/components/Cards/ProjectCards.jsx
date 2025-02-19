@@ -72,7 +72,7 @@ const Tags = styled.div`
 `
 
 const Tag = styled.span`
-    font-size: 12px;
+    font-size:  0.85rem;
     font-weight: 400;
     color: ${({ theme }) => theme.primary};
     background-color: ${({ theme }) => theme.primary + 15};
@@ -109,7 +109,7 @@ const Title = styled.div`
 `
 
 const Date = styled.div`
-    font-size: 12px;
+    font-size:  0.85rem;
     font-weight: 400;
     font-style: italic;
     color: ${({ theme }) => theme.text_secondary + 80};

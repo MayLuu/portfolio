@@ -50,6 +50,7 @@ export const HeroInnerContainer = styled.div`
   align-items: center;
   width: 100%;
   max-width: 1100px;
+  margin-top: 40px;
 
   @media (max-width: 960px) {
     flex-direction: column;
@@ -118,9 +119,9 @@ export const Img = styled.img`
 
 export const Title = styled.div`
   font-weight: 700;
-  font-size: 50px;
+  font-size: 36px;
   color: ${({ theme }) => theme.text_primary};
-  line-height: 68px;
+  line-height: calc(36px * 1.6);
   @media (max-width: 960px) {
     text-align: center;
   }
@@ -135,12 +136,12 @@ export const Title = styled.div`
 export const TextLoop = styled.div`
    min-width: max-content;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 24px;
   display: flex;
   justify-content: center;
   gap: 12px;
   color: ${({ theme }) => theme.text_primary};
-  line-height: 68px;
+  line-height: calc(24px * 1.6);
   @media (max-width: 960px) {
     text-align: center;
   }
@@ -161,19 +162,16 @@ export const Span = styled.div`
 
 
 export const SubTitle = styled.div`
-  font-size: 20px;
-  line-height: 32px;
-  margin-bottom: 42px;
-  color: ${({ theme }) => theme.text_primary + 95};
-
+  color: ${({ theme }) => theme.text_primary};
+  margin: 0 auto;
+  
   @media (max-width: 960px) {
     text-align: center;
   }
 
   @media (max-width: 640px) {
-    font-size: 16px;
-    line-height: 32px;
     margin-bottom: 24px;
+    width: 100%;
   }
 `;
 
@@ -189,7 +187,7 @@ export const ResumeButton = styled.a`
     color:${({ theme }) => theme.white};
     border-radius: 20px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 1.4rem;
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
     background: hsla(271, 100%, 50%, 1);
@@ -211,7 +209,7 @@ export const ResumeButton = styled.a`
     
     @media (max-width: 640px) {
         padding: 12px 0;
-        font-size: 18px;
+        font-size: 1.25rem;
     } 
 
 `;

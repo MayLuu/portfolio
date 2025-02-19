@@ -26,7 +26,7 @@ gap: 12px;
 `
 
 export const Title = styled.div`
-font-size: 42px;
+font-size: 2.25rem;
 text-align: center;
 font-weight: 600;
 margin-top: 20px;
@@ -38,12 +38,12 @@ margin-top: 12px;
 `;
 
 export const Desc = styled.div`
-    font-size: 18px;
+    font-size: 1.25rem;
     text-align: center;
     margin: auto;
     color: ${({ theme }) => theme.text_secondary};
     @media (max-width: 768px) {
-        font-size: 16px;
+        font-size: 1.15rem;
     }
 `;
 
@@ -91,7 +91,7 @@ const SkillItem = styled.div`
   height:fit-content; 
   max-width: calc(20% - 10px);
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 1.15rem;
   font-weight: 400;
   color: ${({ theme }) => theme.text_primary + 80};
   border: 1px solid ${({ theme }) => theme.text_primary + 80};

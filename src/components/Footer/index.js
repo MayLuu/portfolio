@@ -44,7 +44,7 @@ const Nav = styled.nav`
     gap: 1rem;
     justify-content: center;
     text-align: center;
-    font-size: 12px;
+    font-size:  0.85rem;
   }
 `;
 

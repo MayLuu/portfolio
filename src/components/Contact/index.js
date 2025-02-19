@@ -32,7 +32,7 @@ gap: 12px;
 `
 
 const Title = styled.div`
-font-size: 42px;
+font-size: 2.25rem;
 text-align: center;
 font-weight: 600;
 margin-top: 20px;
@@ -44,13 +44,13 @@ margin-top: 20px;
 `;
 
 const Desc = styled.div`
-    font-size: 18px;
+    font-size: 1.25rem;
     text-align: center;
     max-width: 600px;
     color: ${({ theme }) => theme.text_secondary};
     @media (max-width: 768px) {
         margin-top: 12px;
-        font-size: 16px;
+        font-size: 1.15rem;
     }
 `;
 
@@ -80,7 +80,7 @@ const ContactInput = styled.input`
   background-color: transparent;
   border: 1px solid ${({ theme }) => theme.text_secondary};
   outline: none;
-  font-size: 18px;
+  font-size: 1.25rem;
   color: ${({ theme }) => theme.text_primary};
   border-radius: 12px;
   padding: 12px 16px;
@@ -94,7 +94,7 @@ const ContactInputMessage = styled.textarea`
   background-color: transparent;
   border: 1px solid ${({ theme }) => theme.text_secondary};
   outline: none;
-  font-size: 18px;
+  font-size: 1.25rem;
   color: ${({ theme }) => theme.text_primary};
   border-radius: 12px;
   padding: 12px 16px;
@@ -116,7 +116,7 @@ const ContactButton = styled.input`
   border-radius: 12px;
   border: none;
   color: ${({ theme }) => theme.text_primary};
-  font-size: 18px;
+  font-size: 1.25rem;
   font-weight: 600;
 `
 

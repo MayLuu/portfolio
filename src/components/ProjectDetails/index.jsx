@@ -53,11 +53,11 @@ const DetailTitleWrapper = styled.div`
 `
 
 const Title = styled.div`
-  font-size: 20px;
+  font-size: 1.4rem;
   font-weight: 600;
   color: ${({ theme }) => theme.text_primary};
   @media only screen and (max-width: 600px) {
-      font-size: 18px;
+      font-size: 1.25rem;
   }
 `;
 
@@ -83,7 +83,7 @@ const Desc = styled.div`
 const Date = styled.div`
     font-style: italic;
     font-weight: 400;
-    font-size: 12px;
+    font-size:  0.85rem;
     color: ${({ theme }) => theme.text_secondary};
     @media only screen and (max-width: 768px){
         font-size: 10px;
@@ -109,12 +109,12 @@ const Image = styled.img`
 `;
 
 const Label = styled.div`
-    font-size: 20px;
+    font-size: 1.4rem;
     font-weight: 600;
     color: ${({ theme }) => theme.text_primary};
     margin: 8px 6px;
     @media only screen and (max-width: 600px) {
-        font-size: 16px;
+        font-size: 1.15rem;
         margin: 8px 6px;
     }
 `;
@@ -135,7 +135,7 @@ const Tag = styled.div`
     border-radius: 8px;
     background-color: ${({ theme }) => theme.primary + 20};
     @media only screen and (max-width: 600px) {
-        font-size: 12px;
+        font-size:  0.85rem;
     }
 `;
 
@@ -170,7 +170,7 @@ const MemberImage = styled.img`
 `;
 
 const MemberName = styled.div`
-    font-size: 16px;
+    font-size: 1.15rem;
     font-weight: 500;
     width: 200px;
     color: ${({ theme }) => theme.text_primary};
@@ -189,7 +189,7 @@ const ButtonGroup = styled.div`
 const Button = styled.a`
     width: 100%;
     text-align: center;
-    font-size: 16px;
+    font-size: 1.15rem;
     font-weight: 600;
     color: ${({ theme }) => theme.text_primary};
     padding: 12px 16px;
@@ -209,7 +209,7 @@ const Button = styled.a`
         background-color: ${({ theme }) => theme.primary + 99};
     }
     @media only screen and (max-width: 600px) {
-        font-size: 12px;
+        font-size:  0.85rem;
     }
 `;
 

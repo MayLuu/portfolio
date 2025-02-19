@@ -20,7 +20,7 @@ const Description = styled.div`
     color: ${({ theme }) => theme.text_primary + 99};
     margin-bottom: 10px;
     @media only screen and (max-width: 768px){
-        font-size: 12px;
+        font-size:  0.85rem;
     }
 `
 
@@ -102,7 +102,7 @@ const Body = styled.div`
 
 
 const Role = styled.div`
-    font-size: 18px;
+    font-size: 1.25rem;
     font-weight: 600;
     color: ${({ theme }) => theme.text_primary + 99};
     @media only screen and (max-width: 768px){
@@ -115,12 +115,12 @@ const Company = styled.div`
     font-weight: 500;
     color: ${({ theme }) => theme.text_secondary + 99};
     @media only screen and (max-width: 768px){
-        font-size: 12px;
+        font-size:  0.85rem;
     }
 `
 
 const Date = styled.div`
-    font-size: 12px;
+    font-size:  0.85rem;
     font-weight: 400;
     color: ${({ theme }) => theme.text_secondary + 80};
     @media only screen and (max-width: 768px){
@@ -147,7 +147,7 @@ const Skill = styled.div`
     font-weight: 400;
     color: ${({ theme }) => theme.text_primary + 99};
     @media only screen and (max-width: 768px){
-        font-size: 12px;
+        font-size:  0.85rem;
     }
 `
 

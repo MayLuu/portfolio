@@ -98,7 +98,7 @@ export const GitHubButton = styled.a`
   padding: 0 20px;
   font-weight: 500;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1.15rem;
   transition: all 0.6s ease-in-out;
     :hover {
       background: ${({ theme }) => theme.primary};
@@ -130,7 +130,7 @@ export const MobileIcon = styled.div`
     top: 0;
     right: 0;
     transform: translate(-100%, 100%);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     cursor: pointer;
     color: ${({ theme }) => theme.text_primary};
   }
@@ -197,7 +197,7 @@ export const MobileMenuButton = styled.a`
   padding: 0 20px;
   font-weight: 500;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1.15rem;
   transition: all 0.6s ease-in-out;
 
   :hover {

@@ -13,7 +13,7 @@ const HeroSection = () => {
 
     const typeWriterStrings = () => {
         return Bio.roles.map(role => 
-            `<span style="font-size:32px">${role}</span>`
+            `<span style="font-size:24px">${role}</span>`
         )
 
     }
@@ -38,7 +38,7 @@ const HeroSection = () => {
                                 />
                             </Span>
                         </TextLoop>
-                        <SubTitle>{Bio.description}</SubTitle>
+                        <SubTitle className='subheading'>{Bio.description}</SubTitle>
 
                         <HeroInnerContainer>
 
@@ -54,7 +54,7 @@ const HeroSection = () => {
                                 <IconButton href={Bio.email} >
                                     <EmailIcon sx={{ color: '#fff', fontSize: 46 }} />
                                 </IconButton>
-                            </ContactButtonWrapper>
+                            </ContactButtonWrapper>z
                         </HeroInnerContainer>
 
 
