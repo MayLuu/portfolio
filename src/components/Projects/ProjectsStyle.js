@@ -90,7 +90,6 @@ export const ToggleButton = styled.div`
 
     @media (max-width: 768px) {
         padding: 6px 8px;
-        border-radius: 4px;
     }
 `
 export const Divider = styled.div`

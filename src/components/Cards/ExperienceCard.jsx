@@ -59,8 +59,8 @@ const Card = styled.div`
     @media only screen and (max-width: 600px){
         padding: 10px;
         gap: 8px;
-        max-width: 90%;
-        width: 90%;
+        max-width: 100%;
+        width: 100%;
     }
 
 

@@ -186,10 +186,11 @@ export const projects = [
     date: "Mar 2024",
     overview: "A sleek and responsive vegetarian landing page built with Next.js and Ant Design.",
     description:
-      [
-        "A sleek and responsive vegetarian landing page built with Next.js and Ant Design, featuring dynamic navigation, elegant UI components, and fast-loading performance to enhance user engagement.",
-
-      ],
+    [
+      "The web app uses Next.js, MUI, Swiper, Firebase, and EmailJS to showcase a vegetarian restaurant, allowing customers to explore the menu, upcoming events, and make inquiries.",
+      "My role was to develop the frontend UI with MUI, implement dynamic Swiper sliders, integrate Firebase for real-time updates, and configure EmailJS for seamless communication.",
+      "Through this project, I improved state management, API integration, UI/UX design, and honed skills like time management, problem-solving, and responsive design optimization."
+    ],
     image:
       "https://firebasestorage.googleapis.com/v0/b/audioryauth.appspot.com/o/DieuThienBanner.jpg?alt=media&token=19f1cc8e-6958-4729-89ee-6438a973f4a2",
     tags: [

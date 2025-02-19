@@ -1,7 +1,8 @@
 import { CloseRounded, GitHub, LinkedIn } from '@mui/icons-material';
 import { Modal } from '@mui/material';
 import React from 'react'
-import styled from 'styled-components'
+import styled from 'styled-components';
+import CheckIcon from '@mui/icons-material/Check';
 
 const Container = styled.div`
 width: 100%;
@@ -33,6 +34,10 @@ position: relative;
 @media only screen and (max-width: 1024px) {
         padding: 32px 20px
     }
+
+    @media only screen and (max-width: 768px) {
+        padding: 40px 20px
+    }
 `;
 
 const ProjectContentWrapper = styled.div`
@@ -56,6 +61,25 @@ const Title = styled.div`
   }
 `;
 
+
+const DetailDescWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+`
+
+const Desc = styled.div`
+        display: flex;
+        gap: 4px;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: normal;
+        text-align: justify;
+        color: ${({ theme }) => theme.text_primary};
+        @media only screen and (max-width: 600px) {
+            font-size: 13px;
+        }
+    `;
 const Date = styled.div`
     font-style: italic;
     font-weight: 400;
@@ -68,17 +92,6 @@ const Date = styled.div`
 `
 
 
-
-const Desc = styled.div`
-    font-size: 14px;
-    font-weight: 400;
-    line-height: normal;
-    color: ${({ theme }) => theme.text_primary};
-    @media only screen and (max-width: 600px) {
-        font-size: 13px;
-    }
-`;
-
 const Image = styled.img`
     width: 50%;
     margin: 0 auto;
@@ -87,9 +100,9 @@ const Image = styled.img`
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
 
     @media only screen and (max-width: 1024px) {
-        width: 70%;
+        width: 65%;
     }
-    @media only screen and (max-width: 768) {
+    @media only screen and (max-width: 768px) {
         width: 100%;
     }
     
@@ -228,7 +241,13 @@ const index = ({ openModal, setOpenModal }) => {
                                 <Tag>{tag}</Tag>
                             ))}
                         </Tags>
-                        <Desc>{project?.description}</Desc>
+                        <DetailDescWrapper>
+                            {project?.description && project?.description.map((desc)=>(
+                                <Desc>
+                                   <CheckIcon sx={{ fontSize: 16 }} /> {desc}
+                                </Desc>
+                            ))}
+                        </DetailDescWrapper>
                         {project.member && (
                             <>
                                 <Label>Members</Label>

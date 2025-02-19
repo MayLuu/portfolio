@@ -1,7 +1,6 @@
 import React from 'react'
-import styled from "styled-components";
 import HeroBgAnimation from '../HeroBgAnimation'
-import { HeroContainer, HeroBg, HeroLeftContainer, ContactButtonWrapper, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle,SocialMediaIcons,SocialMediaIcon, ResumeButton, IconButton } from './HeroStyle'
+import { HeroContainer, HeroBg, HeroLeftContainer, ContactButtonWrapper, HeroInnerContainer, TextLoop, Title, Span, SubTitle,SocialMediaIcons,SocialMediaIcon, ResumeButton, IconButton } from './HeroStyle'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
 

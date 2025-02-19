@@ -19,7 +19,7 @@ const Container = styled.div`
     align-items: center;
     padding: 40px 0px 80px 0px;
     @media (max-width: 960px) {
-        padding: 0px;
+        margin: 24px 0;
     }
 `;
 
@@ -87,9 +87,9 @@ const index = () => {
                     My work experience as a software engineer and working on different companies and projects.
                 </Desc>
                 <TimelineSection>
-                    <Timeline>
+                    <Timeline sx={{px:0}}>
                         {experiences.map((experience,index) => (
-                            <TimelineItem sx={{ '&:before': { display: 'none'}}}>
+                            <TimelineItem sx={{ '&:before': { display: 'none'}, }}>
                                 <TimelineSeparator>
                                     <TimelineDot variant="outlined" color="secondary" />
                                     {index !== experiences.length && <TimelineConnector style={{ background: '#92fe9d' }} />}

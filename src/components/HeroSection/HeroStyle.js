@@ -126,13 +126,14 @@ export const Title = styled.div`
   }
 
   @media (max-width: 640px) {
-    font-size: 40px;
-    line-height: 48px;
-    margin-bottom: 8px;
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 0px;
   }
 `;
 
 export const TextLoop = styled.div`
+   min-width: max-content;
   font-weight: 600;
   font-size: 32px;
   display: flex;
@@ -144,17 +145,20 @@ export const TextLoop = styled.div`
     text-align: center;
   }
   @media (max-width: 640px) {
-    font-size: 22px;
     line-height: 48px;
-    margin-bottom: 16px;
+    margin-bottom: 0px;
+    transform: scale(0.6);
   }
 `;
 
-export const Span = styled.span`
+export const Span = styled.div`
   color: ${({ theme }) => theme.primary};
   font-size: 32px;
   cursor: pointer;
+
+  
 `;
+
 
 export const SubTitle = styled.div`
   font-size: 20px;
@@ -169,6 +173,7 @@ export const SubTitle = styled.div`
   @media (max-width: 640px) {
     font-size: 16px;
     line-height: 32px;
+    margin-bottom: 24px;
   }
 `;
 
