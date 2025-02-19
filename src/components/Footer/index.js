@@ -25,8 +25,9 @@ const FooterWrapper = styled.footer`
 `;
 
 const Logo = styled.h1`
+  font-family: "Dancing Script", serif;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 24px;
   color: ${({ theme }) => theme.primary};
 `;
 

@@ -4,7 +4,7 @@ import _default from '../../themes/default';
 
 export const Nav = styled.div`
     background-color: ${({theme}) => theme.card_light};
-    height: 80px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,7 +43,7 @@ export const Span = styled.div`
     font-family: "Dancing Script", serif;
     padding: 0 4px;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 28px;
 `;
 export const NavItems = styled.ul`
     width: 100%;
@@ -129,7 +129,7 @@ export const MobileIcon = styled.div`
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 60%);
+    transform: translate(-100%, 100%);
     font-size: 1.5rem;
     cursor: pointer;
     color: ${({ theme }) => theme.text_primary};
@@ -137,24 +137,27 @@ export const MobileIcon = styled.div`
 `
 
 export const MobileMenu = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 16px;
-    position: absolute;
-    top: 80px;
-    right: 0;
-    width: 100%;
-    padding: 12px 40px 24px 40px;
-    background: ${({ theme }) => theme.card_light+99};
-    transition: all 0.6s ease-in-out;
-    transform: ${({ isOpen }) => (isOpen ? 'translateY(0)' : 'translateY(-100%)')};
-    border-radius: 0 0 20px 20px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
-    z-index: ${({ isOpen }) => (isOpen ? '1000' : '-1000')};
+  position: absolute;
+  top: 70px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+  padding: 12px 24px 16px;
+  background: ${({ theme }) => theme.card_light};
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  
+  opacity: ${({ isOpen }) => (isOpen ? '1' : '0')};
+  pointer-events: ${({ isOpen }) => (isOpen ? 'auto' : 'none')}; 
+  
+  transition: opacity 0.6s ease-in-out;
+  will-change: opacity;
+`;
 
-`
+
 
 export const MobileMenuItems = styled.ul`
   display: flex;
