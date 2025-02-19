@@ -180,14 +180,13 @@ export const ResumeButton = styled.a`
     -moz-appearance: button;
     appearance: button;
     text-decoration: none;
-    width: 95%;
-    max-width: 300px;
+    max-width: 160px;
     text-align: center;
-    padding: 16px 0;
+    padding: 16px 24px;
     color:${({ theme }) => theme.white};
     border-radius: 20px;
     cursor: pointer;
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
     background: hsla(271, 100%, 50%, 1);
@@ -208,7 +207,7 @@ export const ResumeButton = styled.a`
     
     
     @media (max-width: 640px) {
-        padding: 12px 0;
+        padding: 12px 20px;
         font-size: 1.25rem;
     } 
 

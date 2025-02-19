@@ -46,13 +46,13 @@ const HeroSection = () => {
 
                             <ContactButtonWrapper>
                                 <IconButton href={Bio.linkedin} target='_blank'>
-                                    <LinkedInIcon sx={{ color: '#fff', fontSize: 46 }} />
+                                    <LinkedInIcon sx={{ color: '#fff', fontSize: { xs: 28, lg: 32 } }} />
                                 </IconButton>
                                 <IconButton href={Bio.github} target='_blank'>
-                                    <GitHubIcon sx={{ color: '#fff', fontSize: 46 }} />
+                                    <GitHubIcon sx={{ color: '#fff', fontSize: { xs: 28, lg: 32 } }} />
                                 </IconButton>
                                 <IconButton href={Bio.email} >
-                                    <EmailIcon sx={{ color: '#fff', fontSize: 46 }} />
+                                    <EmailIcon sx={{ color: '#fff', fontSize: { xs: 28, lg: 32 } }} />
                                 </IconButton>
                             </ContactButtonWrapper>z
                         </HeroInnerContainer>

@@ -113,7 +113,7 @@ const SkillItem = styled.div`
 `
 
 const SkillGroupTitle = styled.h3`
-  font-size: 32px;
+  font-size: 1.75rem;
   line-height: 36px;
   font-weight: 500;
   color: #fff;
