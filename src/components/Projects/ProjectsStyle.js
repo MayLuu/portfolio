@@ -1,7 +1,7 @@
 import styled, { keyframes } from 'styled-components';
 import _default from '../../themes/default';
 
-export const Container = styled.div`
+export const Container = styled.section`
     background: linear-gradient(343.07deg, rgba(132, 59, 206, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%);
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@ export const Container = styled.div`
     z-index: 1;
     align-items: center;
     clip-path: polygon(0 0, 100% 0, 100% 100%,100% 98%, 0 100%);
-
+    padding-top: 80px;
     @media (max-width: 768px) {
       padding: 0 16px
   }
@@ -97,7 +97,7 @@ export const Divider = styled.div`
 `
 
 
-export const CardContainer = styled.div`
+export const CardContainer = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;

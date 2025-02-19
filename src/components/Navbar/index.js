@@ -27,6 +27,7 @@ const Navbar = () => {
           <NavLink href='#experience'>Experience</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
+          <NavLink href='#contact' >Contact</NavLink>
         </NavItems>
 
         {/* Always render MobileMenu */}
@@ -36,6 +37,7 @@ const Navbar = () => {
           <MobileLink href='#experience' onClick={() => setIsOpen(false)}>Experience</MobileLink>
           <MobileLink href='#projects' onClick={() => setIsOpen(false)}>Projects</MobileLink>
           <MobileLink href='#education' onClick={() => setIsOpen(false)}>Education</MobileLink>
+          <MobileLink href='#contact' onClick={() => setIsOpen(false)}>Contact</MobileLink>
         </MobileMenu>
       </NavbarContainer>
     </Nav>

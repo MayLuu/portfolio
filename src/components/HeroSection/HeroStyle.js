@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import _default from "../../themes/default";
 
-export const HeroContainer = styled.div`
+export const HeroContainer = styled.section`
   height:90vh;
   background: ${({ theme }) => theme.card_light};
   display: flex;
@@ -43,7 +43,7 @@ export const HeroBg = styled.div`
   }
 `;
 
-export const HeroInnerContainer = styled.div`
+export const HeroInnerContainer = styled.section`
   position: relative;
   display: flex;
   justify-content: center;
@@ -61,7 +61,7 @@ export const HeroInnerContainer = styled.div`
   }
   
 `;
-export const HeroLeftContainer = styled.div`
+export const HeroLeftContainer = styled.section`
   width: 100%;
   order: 1;
   text-align: center;
@@ -82,7 +82,7 @@ export const HeroLeftContainer = styled.div`
   }
 `;
 
-export const HeroRightContainer = styled.div`
+export const HeroRightContainer = styled.section`
   width: 100%;
   display: flex;
   order: 2;
@@ -216,8 +216,6 @@ export const ResumeButton = styled.a`
 
 
 export const IconButton = styled.a`
-  width: 40px;
-  height:40px;
   
 `;
 

@@ -16,90 +16,100 @@ description:
 };
 
 export const skills = [
-  {
-    title: "Frontend",
-    skills: [
-      {
-        name: "React Js",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      },
-      {
-        name: "Redux",
-        image:
-          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-      },
-      {
-        name: "NextJS",
-        image:
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
-      },
-      {
-        name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-      },
-      {
-        name: "CSS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-      },
-      {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-      {
-        name: "Bootstrap",
-        image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-      },
-      {
-        name: "Material UI",
-        image:
-          "https://mui.com/static/logo.png",
-      },
-      // {
-      //   name: "Flutter",
-      //   image:
-      //     "https://cdn.prod.website-files.com/6047a9e35e5dc54ac86ddd90/63018720eab248248ff88ee3_1bd86e15.png",
-      // },
-    ],
-  },
-  {
-    title: "Others",
-    skills: [
-      {
-        name: "Git",
-        image:
-          "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
-      },
-      {
-        name: "Github",
-        image:
-          "https://www.vectorlogo.zone/logos/github/github-icon.svg",
-      },
-      {
-        name: "Postman",
-        image:
-          "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
-      },
-      {
-        name: "Firebase",
-        image:
-          "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      },
-      {
-        name: "Vercel",
-        image:
-          "https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg",
-      },
-      {
-        name: "Figma",
-        image:
-          "https://www.vectorlogo.zone/logos/figma/figma-icon.svg",
-      },
-    ],
-  },
+ 
+    {
+      "title": "Frameworks/Library",
+      "skills": [
+        {
+          "name": "ReactJS",
+          "image": "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
+        },
+        {
+          "name": "Redux",
+          "image": "https://www.vectorlogo.zone/logos/js_redux/js_redux-icon.svg"
+        },
+        {
+          "name": "NextJS",
+          "image": "https://www.vectorlogo.zone/logos/nextjs/nextjs-icon.svg"
+        },
+        {
+          "name": "Bootstrap",
+          "image": "https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg"
+        },
+        {
+          "name": "Material UI",
+          "image": "https://mui.com/static/logo.png"
+        },
+        {
+          "name": "Ant Design",
+          "image": "https://mui.com/static/logo.png"
+        },
+        {
+          "name": "TailwindCSS",
+          "image": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+        },
+        {
+          "name": "Firebase",
+          "image": "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
+        }
+      ]
+    },
+    {
+      "title": "Programming language",
+      "skills": [
+        {
+          "name": "HTML5",
+          "image": "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"
+        },
+        {
+          "name": "CSS3",
+          "image": "https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg"
+        },
+        {
+          "name": "JavaScript",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+        },
+        {
+          "name": "Typescript",
+          "image": "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg"
+        }
+      ]
+    },
+    {
+      "title": "Tools",
+      "skills": [
+        {
+          "name": "Git",
+          "image": "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+        },
+        {
+          "name": "Github",
+          "image": "https://www.vectorlogo.zone/logos/github/github-icon.svg"
+        },
+        {
+          "name": "Postman",
+          "image": "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+        },
+        {
+          "name": "Vercel",
+          "image": "https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg"
+        },
+        {
+          "name": "Figma",
+          "image": "https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
+        },
+        {
+          "name": "Jira",
+          "image": "https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-icon.svg"
+        },
+        {
+          "name": "VS Code",
+          "image": "https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg"
+        }
+      ]
+    }
+
+
   
 ];
 
@@ -187,8 +197,8 @@ export const projects = [
     overview: "A sleek and responsive vegetarian landing page built with Next.js and Ant Design.",
     description:
     [
-      "The web app uses Next.js, MUI, Swiper, Firebase, and EmailJS to showcase a vegetarian restaurant, allowing customers to explore the menu, upcoming events, and make inquiries.",
-      "My role was to develop the frontend UI with MUI, implement dynamic Swiper sliders, integrate Firebase for real-time updates, and configure EmailJS for seamless communication.",
+      "The web app uses Next.js, Ant Design, Swiper, Firebase, and EmailJS to showcase a vegetarian restaurant, allowing customers to explore the menu, upcoming events, and make inquiries.",
+      "My role was to develop the frontend UI with Ant Design, implement dynamic Swiper sliders, integrate Firebase for real-time updates, and configure EmailJS for seamless communication.",
       "Through this project, I improved state management, API integration, UI/UX design, and honed skills like time management, problem-solving, and responsive design optimization."
     ],
     image:
@@ -209,7 +219,9 @@ export const projects = [
     date: "Jul 2023 - Dec 2023",
     overview: "An intelligent platform designed to enhance storycomposing experiences for Vietnamese generation.",
     description:
-      "Democratizing storytelling for a new generation of diverse Gen Z writers and their fans.",
+      ["A cross-platform solution using Next.js for web and Flutter for mobile that allows users to seamlessly switch between devices to read and compose comics.",
+        "My responsibilities are UI/UX design, front-end development, and ensuring responsive design across platforms.",
+        "Throughout the capstone project, I developed better problem-solving skills, enhanced my knowledge of full-stack development, and improved teamwork & communication skills."],
     image:
       "https://firebasestorage.googleapis.com/v0/b/audioryauth.appspot.com/o/thumbnail%20(1).jpg?alt=media&token=a1cdce02-da48-4fd5-ad2b-602555f63fc3",
     tags: [
@@ -221,7 +233,7 @@ export const projects = [
       "FPT AI"
     ],
     github: "https://github.com/Eskimo112/audiory-dashboard",
-    webapp: "audiory-dashboard.vercel.app",
+    webapp: "",
   },
   // {
   //   id: 2,
@@ -253,8 +265,8 @@ export const projects = [
     overview: "ReactJS-powered car showcase with MailJS for inquiries, sleek UI, dynamic filtering.",
     description:
       [
-        "Built with modern React libraries for state management and optimal performance, delivering an engaging user experience",
-        "A ReactJS-based car showcase website for Mercedes-Benz Haxaco, featuring interactive UI, model filtering, and virtual showroom"
+        "Built with modern React libraries for state management and optimal performance, delivering an engaging user experience.",
+        "A ReactJS-based car showcase website for Mercedes-Benz Haxaco, featuring interactive UI, model filtering, and virtual showroom."
       ],
     image:
       "https://firebasestorage.googleapis.com/v0/b/audioryauth.appspot.com/o/file%20cover%20-%202.png?alt=media&token=c0f3d374-e762-4330-938a-e438ae1f0f45",

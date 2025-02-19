@@ -5,7 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 
-const FooterContainer = styled.div`
+const FooterContainer = styled.section`
   width: 100%;
   padding: 2rem 0;
   display: flex;

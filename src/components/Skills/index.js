@@ -2,13 +2,19 @@ import React from 'react'
 import styled from 'styled-components'
 import { skills } from '../../data/constants'
 
-const Container = styled.div`
+const Container = styled.section`
 display: flex;
 flex-direction: column;
 justify-content: center;
 position: relative;
 z-index: 1;
 align-items: center;
+padding-top: 80px;
+overflow: auto;
+@media (max-width: 1224px) {
+    padding-left: 24px;
+    padding-right: 24px;
+}
 `
 
 const Wrapper = styled.div`
@@ -47,7 +53,7 @@ export const Desc = styled.div`
     }
 `;
 
-const SkillsContainer = styled.div`
+const SkillsContainer = styled.section`
   width: 100%;
   display: flex;
   flex-wrap: wrap;

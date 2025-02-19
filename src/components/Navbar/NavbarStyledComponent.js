@@ -17,7 +17,7 @@ export const Nav = styled.div`
         trastion: 0.8s all ease;
     }
 `;
-export const NavbarContainer = styled.div`
+export const NavbarContainer = styled.section`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,7 +49,7 @@ export const NavItems = styled.ul`
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content:end;
     gap: 32px;
     padding: 0 6px;
     list-style: none;
@@ -109,7 +109,7 @@ export const GitHubButton = styled.a`
     }
 `;
 
-export const ButtonContainer = styled.div`
+export const ButtonContainer = styled.section`
   width: 80%;  
   height: 100%;
   display: flex;

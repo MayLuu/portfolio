@@ -4,7 +4,7 @@ import React from 'react'
 import styled from 'styled-components';
 import CheckIcon from '@mui/icons-material/Check';
 
-const Container = styled.div`
+const Container = styled.section`
 width: 100%;
 height: 100%;
 position: absolute;
@@ -242,7 +242,7 @@ const index = ({ openModal, setOpenModal }) => {
                             ))}
                         </Tags>
                         <DetailDescWrapper>
-                            {project?.description && project?.description.map((desc)=>(
+                            {project?.description.length > 0 && project?.description.map((desc)=>(
                                 <Desc>
                                    <CheckIcon sx={{ fontSize: 16 }} /> {desc}
                                 </Desc>
@@ -273,7 +273,9 @@ const index = ({ openModal, setOpenModal }) => {
                     <ProjectContentWrapper>
                         <ButtonGroup>
                             <Button dull href={project?.github} target='new'>View Code</Button>
-                            <Button href={project?.webapp} target='new'>View Live App</Button>
+                           {
+                            project?.webapp !== "" ? <Button href={project?.webapp} target='new'>View Live App</Button> : <></>
+                           } 
                         </ButtonGroup>
                     </ProjectContentWrapper>
                 </Wrapper>

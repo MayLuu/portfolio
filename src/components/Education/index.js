@@ -17,7 +17,7 @@ const Container = styled.section`
     position: relative;
     z-index: 1;
     align-items: center;
-    padding: 0px 0px 60px 0px;
+    padding: 80px 0px 60px 0px;
     @media (max-width: 960px) {
         padding: 0px;
     }
@@ -83,7 +83,7 @@ const index = () => {
             <Wrapper>
                 <Title>Education and certificates</Title>
                 <Desc>
-                    My education has been a journey of self-discovery and growth. My educational details are as follows.
+                    My education has been a journey of self-discovery and growth.<br/> My educational details are as follows.
                 </Desc>
                 <TimelineSection>
                     <Timeline>
